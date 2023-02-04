@@ -3,7 +3,7 @@ import { useTheme } from 'styled-components'
 import { BtnDeleteContainer } from './styles'
 
 interface BtnDeleteProps {
-  onDelete: (id: number) => void
+  onDelete: () => void
 }
 
 export function BtnDelete({ onDelete }: BtnDeleteProps) {
