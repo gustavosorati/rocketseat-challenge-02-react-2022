@@ -46,7 +46,7 @@ export function CheckoutCoffeesAmount() {
         {cartItems.map((coffee) => {
           return (
             <ProductContainer key={coffee.id}>
-              <img src={`src/assets/coffees/${coffee.image}`} alt="" />
+              <img src={`/coffees/${coffee.image}`} alt="" />
 
               <ProductDescription>
                 <strong>{coffee.title}</strong>
